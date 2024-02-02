@@ -1,0 +1,317 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #191d28;
+}
+
+
+a {
+    text-decoration: none !important;
+}
+
+.top-section {
+    padding: 20px 30px 0px;
+}
+
+/* heading*/
+.heading {
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.heading:hover {
+    text-decoration: none;
+    color: #5dc7c2;
+}
+
+/* mid section */
+.color-green {
+    color: #5dc7c2;
+}
+
+.average-header-maintext {
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+.average-header-subHeading,
+.average-header-subtext {
+    color: #fff;
+    opacity: .45;
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+
+.subText-heading {
+    font-size: 1.75rem;
+    color: #fff;
+}
+
+.average-subText {
+    font-weight: 400;
+    color: #0c0f48;
+    color: #fff;
+    opacity: .45;
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: .75px;
+}
+
+.average-heading {
+    font-weight: 400;
+    font-size: 5rem;
+    color: #fff;
+}
+
+/* btn */
+.tele-btn {
+    border-radius: 10px;
+    background-color: #3dc6c1;
+    color: #fff;
+    font-size: 0.875rem;
+    font-family: Oswald, sans-serif;
+}
+
+/* table */
+.fiat-crypto-table table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 1em;
+    margin: 0;
+}
+
+.fiat-crypto-table {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.fiat-crypto-table th h4 {
+    font-family: Oswald;
+    font-size: 1.5rem;
+    opacity: .45;
+    letter-spacing: 1px;
+    margin: 0 0 -5px;
+}
+
+.fiat-crypto-table tbody td:first-child {
+    border-radius: 10px 0 0 10px;
+}
+
+.fiat-crypto-table tbody td:last-child {
+    border-radius: 0 10px 10px 0px;
+}
+
+.fiat-crypto-table td {
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.table-borderless tbody+tbody,
+.table-borderless td,
+.table-borderless th,
+.table-borderless thead th {
+    border: 0;
+}
+
+.table td,
+.table th {
+    padding: 0.75rem;
+    vertical-align: top;
+    /* border-top: 1px solid #dee2e6; */
+}
+
+.align-middle {
+    vertical-align: middle !important;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.color-red {
+    color: #da5757;
+}
+
+.pointer {
+    cursor: pointer;
+    color: #fff;
+}
+
+.exchange-name,
+.exchange-name:hover {
+    padding-left: 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.exchange-logo {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+}
+
+img,
+svg {
+    vertical-align: middle;
+}
+
+img {
+    border-style: none;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+}
+
+table {
+    /* display: block; */
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.fiat-crypto-table tbody tr {
+    background-color: #2e3241;
+
+}
+
+@media (max-width:960px) {
+    .average-heading {
+        font-size: 60px;
+    }
+
+    .subText-heading {
+        font-size: 22px;
+    }
+
+    .average-subText {
+        font-weight: 400;
+        opacity: .45;
+        font-weight: 300;
+        font-size: 16px;
+    }
+
+    .tele-btn {
+        font-size: 14px;
+        margin-top: 13px;
+    }
+
+    .heading {
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .average-heading {
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .subText-heading {
+        font-size: 14px;
+    }
+
+    .average-header-maintext {
+        font-weight: 400;
+        font-size: 14px;
+        white-space: nowrap;
+    }
+
+    .average-subText {
+        font-weight: 400;
+        opacity: .45;
+        font-weight: 300;
+        font-size: 10px;
+    }
+
+    .average-header-subHeading {
+        font-size: 10px;
+    }
+
+    .average-header-subHeading,
+    .average-header-subtext {
+        font-weight: 400;
+        /* color: #0c0f48; */
+        opacity: .45;
+        font-weight: 300;
+        white-space: nowrap;
+    }
+
+    .fiat-crypto-table h4 {
+        white-space: nowrap;
+    }
+    .exchange-logo {
+        height: 10px;
+        width: 10px;
+    }
+    .exchange-name {
+        padding-left: 4px;
+    }
+}
+
+@media (max-width: 415px) {
+    .fiat-crypto-table th h4 {
+        font-family: Oswald;
+        font-size: 18px !important;
+        opacity: .45;
+        letter-spacing: 1px;
+        margin: 0 0 -5px;
+    }
+
+    .fiat-crypto-table td h4 {
+        font-family: Oswald;
+        font-size: 16px;
+        font-weight: 600;
+        margin: 0;
+        opacity: 1;
+    }
+
+    .top-section {
+        padding: 10px 20px 0px;
+    }
+
+    .button-size {
+        font-size: 12px;
+    }
+
+    .tele-btn {
+        font-size: 10px;
+    }
+
+    .heading {
+        font-size: 3rem;
+    }
+    .fiat-crypto-table table {
+        /* width: 100%;
+        max-width: 100%; */
+        border-collapse: separate;
+        border-spacing: 0 2px;
+        margin: 0;
+        padding: 0;
+    }
+    .fiat-crypto-table td {
+        color: #fff;
+        padding: 3px;
+    }
+}
